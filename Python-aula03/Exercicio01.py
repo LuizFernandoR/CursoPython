@@ -26,20 +26,20 @@
 
 # Control + k + c Descomentar
 
-lista = []
-for i in range(3):
-     nota= float(input(f'Digite a nota{i+1}: '))
-     lista.append(nota)    
+# lista = []
+# for i in range(3):
+#      nota= float(input(f'Digite a nota{i+1}: '))
+#      lista.append(nota)    
 # ac = 0
 # for i in lista:
 #     ac= ac +  1
-media = sum(lista)/len(lista)
+# media = sum(lista)/len(lista)
 
-if media >= 7:
-    print('Aprovado',media)
-elif media >= 5.5:
-    print ('Recuperação',media)
-else:
-    print('Reprovado',media)
+# if media >= 7:
+#     print('Aprovado',media)
+# elif media >= 5.5:
+#     print ('Recuperação',media)
+# else:
+#     print('Reprovado',media)
 
 
