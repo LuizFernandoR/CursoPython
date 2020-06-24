@@ -11,6 +11,7 @@ for i in tupla:
         print('posição',cont)
         break
     cont += 1
+    
 # 'cont += 1'- é igual a 'cont= cont + 1'
 
 
