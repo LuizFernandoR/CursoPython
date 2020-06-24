@@ -64,12 +64,51 @@
 # lista=[10,20,30,40,50,60,70]
 # lista[2]=100
 # print(lista)
+# media = 0
+
+# notas = [8,8,8,8]
+# for i in notas:
+#     media= media + i
+# media_final= media / len(notas)
+
+# print(media_final)
+# ---------------------------------------------
+# nomes= []
+# funcoes = []
+# def entrada():
+#     nome = input('Digite seu nome:')
+#     nomes.append(nome)
+#     funcao = input('Digite sua fução na empresa:')
+#     funcoes.append(funcao)
 
 
+# opcao = ''
+# while True:
+#     opcao= input('Deseja cadastrar?S/N')
+#     if opcao =='s':
+#         entrada()
+#     else:
+#         print(nomes)
+#         print(funcoes)
+#         break
 
-
-
-
+lista= [1,2,3,4,5,6,7,8,9,10,12,13,
+        14,15,16,17,18,19,20]
+a_consultar = 0
+def consulta(lista):
+    a_consultar= int(input('Número a consultar: '))
+opcao = ''
+while True:
+    print('Deseja consultar lista?')
+    opcao = input('Digite opção S/N: ')
+    if opcao == 's':
+        consulta(lista)
+        for i in lista:
+            if i == a_consultar:
+                print('Este número está na lista.',a_consultar)
+            else:
+                print('Este número nõa esta na lista.')
+                break
 
 
 
