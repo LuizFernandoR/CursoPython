@@ -14,8 +14,9 @@ for i in lista:
     if i == numero_alterar:
         lista.remove(numero_alterar)
         lista.append(alterar)
-        print('nome ')
-        print('numeros')
+        print('nome ',resposta)
+        print('nome')
+        
 
 
     
