@@ -7,7 +7,7 @@ for i in lista1:
         soma= i + j
         produto= i * j
         print('Lista soma:',soma,'- Lista produto:',produto)
-        print('teste')
+        
         
     
     
