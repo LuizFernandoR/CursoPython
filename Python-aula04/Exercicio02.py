@@ -1,12 +1,11 @@
-notas = [2,5,10,20,50,100]
+dinheiro = [100,50,20,10,5,2,0.5,0.25,0.1,0.05,0.01]
 valor= float(input('Valor: '))
-cont= 0
-for i in notas:
-    if valor == i:
-        cont+= 1
-        print('Quantidade de notas:',cont,'valor:',valor)
-        break
-
+for pila in dinheiro:
+    quantidade = valor // pila
+    #valor = valor -(pila * quantidade)
+    valor = round (valor % pila,2)
+    print(f'dinheiro{pila} x {quantidade} = {pila*quantidade}')
+        
 
 
 
