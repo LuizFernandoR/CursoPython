@@ -20,5 +20,19 @@
 #     cadastro = dict(zip(lista,lista_cadastro))
 # print(cadastro)
 
+# a=15.656565656565
+# print(f"{a:.2f}")
+a = 10
+print(f'{a:d}')
+n ='Eu sou o nando'
+print(f'{n:s}')
+r = 10.2520000
+print(f'{r:10.3f}')
+l = [10,20,30,40,50]
+print(f'esse é o numero{l[2]:d} e este outro {l[3]:d}')
+
+
+
+
 
 
