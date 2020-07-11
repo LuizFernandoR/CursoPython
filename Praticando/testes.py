@@ -92,24 +92,25 @@
 #         print(funcoes)
 #         break
 
-lista= [1,2,3,4,5,6,7,8,9,10,12,13,
-        14,15,16,17,18,19,20]
-a_consultar = 0
-def consulta(lista):
-    a_consultar= int(input('Número a consultar: '))
-opcao = ''
-while True:
-    print('Deseja consultar lista?')
-    opcao = input('Digite opção S/N: ')
-    if opcao == 's':
-        consulta(lista)
-        for i in lista:
-            if i == a_consultar:
-                print('Este número está na lista.',a_consultar)
-            else:
-                print('Este número nõa esta na lista.')
-                break
+# lista= [1,2,3,4,5,6,7,8,9,10,12,13,
+#         14,15,16,17,18,19,20]
+# a_consultar = 0
+# def consulta(lista):
+#     a_consultar= int(input('Número a consultar: '))
+# opcao = ''
+# while True:
+#     print('Deseja consultar lista?')
+#     opcao = input('Digite opção S/N: ')
+#     if opcao == 's':
+#         consulta(lista)
+#         for i in lista:
+#             if i == a_consultar:
+#                 print('Este número está na lista.',a_consultar)
+#             else:
+#                 print('Este número nõa esta na lista.')
+#                 break
+lista = [0,1,2,3,4,5,6]
 
-
+print(min(lista))
 
 
