@@ -53,4 +53,4 @@
 # lista = [i for i in range(10)]
 # funcao = lambda x,y : x + y
 # print(lista)
-# print(reduce(funcao,lista))
+# print(reduce(funcao,lista)

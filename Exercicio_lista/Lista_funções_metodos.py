@@ -9,13 +9,19 @@
 # print(id(h))
 # print(id(i))
 
-lista = [1,2,3]
-l = lista
+# lista = [1,2,3]
+# l = lista
 # print(f'id(lista): {id(l)}')
 # print(f'lista == l: {l==lista}' )
 # print(f'lista is l: {l is lista}')
 # print(f'Minha lista é: {lista}')
-nl = lista.copy()
-print(f'nl={id(nl)}')
-print(f'l= {id(l)}')
-print(f'id n == id nl: {nl is l}')
+# nl = lista.copy()
+# print(f'nl={id(nl)}')
+# print(f'l= {id(l)}')
+# print(f'id n == id nl: {nl is l}')
+
+# lista = ['Luiz','Fernando','Reichert']
+# nome = ' '.join(lista)
+# print(lista)
+# print(nome)
+

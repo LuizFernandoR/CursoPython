@@ -109,8 +109,6 @@
 #             else:
 #                 print('Este número nõa esta na lista.')
 #                 break
-lista = [0,1,2,3,4,5,6]
 
-print(min(lista))
 
 

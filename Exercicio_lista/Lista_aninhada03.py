@@ -4,3 +4,6 @@ cerveja = (('marca', 'tipo', 'ibu','preço'),
            ('Kaiser','Americam Larger','leve',2.35),
            ('Sol','larger mão','agua',1.19)
           )
+
+    
+    
